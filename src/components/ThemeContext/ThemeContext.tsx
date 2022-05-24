@@ -32,12 +32,14 @@ interface Props {
 }
 
 const ThemeProvider: FunctionComponent<Props> = props => {
-  const [mode, setMode] = useState(modes[0])
+  const [mode, setMode] = useState(localStorage.getItem('theme') || 'light')
 
   const selectedTheme = getTheme(mode)
 
   const changeTheme = useCallback(() => {
-    setMode(mode === modes[0] ? modes[1] : modes[0])
+    const newMode = mode === modes[0] ? modes[1] : modes[0]
+    setMode(newMode)
+    localStorage.setItem('theme', newMode)
   }, [mode])
 
   const value = useMemo(

@@ -19,7 +19,6 @@ class ErrorBoundary extends React.Component<
   }
 
   componentDidCatch(error: any, errorInfo: any) {
-    console.log(`LL: componentDidCatch -> errorInfo`, errorInfo)
     console.log(`LL: componentDidCatch -> error`, error)
     this.setState({
       error,
@@ -28,7 +27,6 @@ class ErrorBoundary extends React.Component<
   }
 
   render() {
-    console.log('error handle')
     const isDevelopment = process.env.NODE_ENV === 'production'
     const { error, errorInfo } = this.state
     if (errorInfo) {

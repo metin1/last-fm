@@ -12,8 +12,6 @@ const Header: React.FC = () => {
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const { mode, changeTheme } = useTheme()
-  console.log(`LL: Header:React.FC -> changeTheme`, changeTheme)
-  console.log(`LL: Header:React.FC -> mode`, mode)
 
   const handleClick = () => {
     navigate(`/`)

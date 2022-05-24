@@ -25,7 +25,7 @@ export const colors = {
       border: '#5e5e5e',
       card: '#082c08',
       text: '#868e96',
-      detail: '#83b03e',
+      detail: '#42591f',
       footer: '#E1EFFF',
       link: '#1890ff',
       rate: '#1890ff',
