@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "Last FM",
+  "name": "last-fm",
   "version": "0.0.1",
   "description": "The FE for Last FM",
   "main": "index.js",
