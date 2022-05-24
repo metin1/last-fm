@@ -15,7 +15,7 @@ const StyledLink = styled(Text)<LinkProps>`
   align-items: center;
   width: fit-content;
   cursor: pointer;
-  color: ${({ theme, color }) => theme.colors[color]};
+  color: ${({ theme }) => theme.colors.text};
   &:hover {
     text-decoration: none;
     color: ${({ theme }) => theme.colors.link};
