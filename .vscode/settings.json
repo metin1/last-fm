@@ -1,0 +1,35 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For TSLint
+    "source.fixAll.tslint": true,
+    // For Stylelint
+    "source.fixAll.stylelint": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.lintTask.enable": true,
+  "eslint.packageManager": "yarn",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "prettier.singleQuote": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "devextreme",
+    "eslintignore",
+    "flexbox",
+    "huskyinstall",
+    "prettierignore",
+    "toastify",
+    "todos"
+  ],
+  "i18n-ally.localesPaths": [
+    "src/locales"
+  ]
+}
