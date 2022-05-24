@@ -29,7 +29,6 @@ const Text = styled.div<TextProps>`
 `
 
 Text.defaultProps = {
-  color: 'text',
   small: false,
 }
 
